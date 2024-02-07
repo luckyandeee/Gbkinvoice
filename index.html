@@ -90,7 +90,7 @@
          
          
          var doc = new jsPDF();
-         doc.addImage(imgData, 'PNG', 10, 0, 80, 40);
+         doc.addImage(imgData, 'PNG', 10, 10, 80, 40);
         
          
          
@@ -204,7 +204,7 @@
          doc.line(10, 270, 250, 270);
          //footer
          doc.text(30, 275, "Contact us: 9553791464, 9885401696");
-         doc.text(30, 280, "Address : 16-2-701/6/14A  (Room No 2) BanarasArcade, Besides Jawa Yezdi showroom,malakpet Hyderabad telangna 500036.");
+         doc.text(30, 280, "Address : VS residency,Saidabad Hyderabad telangna 500059.");
          doc.textWithLink("Email: " + "gbkholidays@gmail.com", 30, 285, { url: 'mailto:' });
          doc.textWithLink("Instagram: " + "gbkholidays", 30, 290, { url: '' });
          var filename = bookingid + '-' + customername + '-' + bookingdate + '.pdf';
