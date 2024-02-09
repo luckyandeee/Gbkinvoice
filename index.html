@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="invoice.css">
+   <link rel="stylesheet" href="Invoice.css">
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
    <title>Invoice Generator</title>
 </head>
@@ -90,7 +90,7 @@
          
          
          var doc = new jsPDF();
-         doc.addImage(imgData, 'PNG', 0, 10, 90, 45);
+         doc.addImage(imgData, 'PNG', 0, 10, 90, 30);
          
          doc.setFontType("bold");
          doc.setFontSize("16");
