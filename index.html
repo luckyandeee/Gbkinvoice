@@ -207,7 +207,7 @@
          doc.text(30, 280, "Address : VS residency,Saidabad Hyderabad telangna 500059.");
          doc.textWithLink("Email: " + "gbkholidays@gmail.com", 30, 285, { url: 'mailto:gbkholidays@gmail.com});
          doc.textWithLink("Instagram: " + "gbkholidays", 30, 290, { url: 'https://www.instagram.com/gbkholidays' });
-         var filename = bookingid + '-' + customername + '-' + bookingdate + '.pdf';
+         var filename =  customername + '-' + bookingdate + '.pdf';
          
          doc.save(filename);
          location.reload();
